@@ -1,0 +1,30 @@
+.program{
+    height: 40%;
+    padding-top: 5%;
+    padding-left: 2%;
+    padding-right: 1.5%;
+}
+.program h2{
+    text-align: center;
+}
+.program h4{
+    padding-left: 6%;
+}
+.sltena{
+    height: 40%;
+    padding-left: 2%;
+    padding-right: 1.5%;
+}
+.sltena h2{
+    text-align: center;
+}
+.sltena h4{
+    padding-left: 6%;
+}
+.mid-body{
+    height: 100%;
+    width: 100%;
+}
+a{
+    font-weight: 500;
+}
