@@ -9,13 +9,16 @@ html {
 .text-white {
     color: white;
 }
+a{
+    font-weight: bold;
+}
 
-.sidebar {
+/* .sidebar {
     top: 0;
-    background-image: url("images/church2.jpg");
+    background-image: url("images/church5.jpg");
     background-repeat: no-repeat;
     width: 100%;
-    height: 25%;
+    height: 25vh;
     background-attachment: fixed;
     position: fixed;
     background-size: 100%;
@@ -26,37 +29,36 @@ html {
 .item-center {
     align-items: center;
     text-align: center;
-    height: 50%;
+    height: 10vh;
 }
 
 .header {
     width: 100%;
-    height: 38%;
+    height: 12vh;
 }
 
 .header-left {
     float: left;
     text-align: left;
     width: 20%;
-    height: 80%;
+    height: 12vh;
 }
 
 .header-right {
     float: right;
     text-align: right;
     width: 80%;
-    height: 80%;
+    height: 12vh;
 }
 
 .header-left .logo {
     padding-left: 5%;
-    padding-bottom: 45%;
-    height: 70%;
-    width: 50%;
+    height: 12vh;
+    width: 55%;
 }
 
 .navigation {
-    padding-top: 1%;
+    padding-top: 4vh;
     padding-right: 0%;
 }
 
@@ -78,59 +80,56 @@ a {
 }
 
 .main-a {
-    color: #4d88ff;
+    color: #d1d1e0;
 }
 
 .main-a:visited {
-    color: #1aa3ff;
+    color: #d1d1e0;
 }
 
 .main-a:hover {
-    color: #b3b3ff;
+    color: #9966ff;
 }
 
 .middle {
-    top: 25%;
+    top: 25vh;
     width: 100%;
     height: 45%;
-    margin-top: 12.5%;
+    margin-top: 0vh;
     position: relative;
 }
 
 .scroll-img {
-    height: 30%;
+    height: 30vh;
     width: 100%;
 }
 
 #image {
-    height: 3 0%;
+    height: 30vh;
     width: 100%;
 }
 
 .section-text {
-    margin-top: 10%;
-    height: 40%;
+    margin-top: 50vh;
+    height: 20vh;
     text-align: center;
     font-weight: 700;
-    margin-bottom: 10%;
+    margin-bottom: 50vh;
 }
 
 .footer {
     width: 100%;
-    height: 30%;
+    height: 45vh;
     background-color: #334d4d;
     display: flex;
     padding: 20px 0px 20px 0px;
-    /* margin-top: 70%; */
     color: #fff;
 }
 
 .footer-left {
     float: left;
-    height: 75%;
+    height: 45vh;
     width: 50%;
-    bottom: 25%;
-    top: 70%;
 }
 
 .footer-left li {
@@ -141,10 +140,8 @@ a {
 }
 .footer-right {
     float: right;
-    height: 75%;
+    height: 45vh;
     width: 50%;
-    bottom: 25%;
-    top: 70%;
 }
 
 #address {
@@ -152,7 +149,7 @@ a {
     font-weight: bold;
 }
 .footer-img{
-    height: 4%;
+    height: 4vh;
     width: 4%;
 }
 .copyright {
@@ -164,15 +161,14 @@ a {
 
 .back {
     background-color: #334d4d;
-    height: 5%;
 }
 
 .up-btn {
     border-radius: 50%;
     border: 1px solid black;
     background-color: #99ccff;
-    width: 3%;
-    height: 6%;
+    width: 4%;
+    height: 6vh;
     position: absolute;
     cursor: pointer;
     transition: 200ms ease-in-out;
@@ -185,7 +181,8 @@ a {
 
 .up-btn>svg {
     position: absolute;
-    bottom: 10%;
+    bottom: 2vh;
+    left: 50%;
     transform: translate(-50%);
     color: #000;
 }
@@ -199,248 +196,622 @@ a {
     position: relative;
     text-align: right;
     width: 90%;
-    height: 300px;
+    height: 45vh;
 }
 
 .gmap_canvas {
     overflow: hidden;
     background: none !important;
     width: 90%;
-    height: 300px;
+    height: 45vh;
 }
 
 .gmap_iframe {
-    height: 300px !important;
-}
+    height: 45vh !important;
+} */
 
 
 
-/* 
-.hidden{
-    display: none;
-}
-.transparent{
-    background-color: transparent;
-}
-.bg-white{
-    background-color: white;
-}
-.transition {
-    transition: 200ms ease-in-out;
-}
-.flex {
-    display: flex;
-    gap: var(--gap, 0.5rem);
-}
-  
-.flex-col {
-    flex-direction: column;
-}
-  
-.flex-row {
-    flex-direction: row;
-}
-.gap-1 {
-    --gap: 0.25rem;
-}
-  
-.gap-2 {
-    --gap: 0.5rem;
-}
-  
-.gap-3 {
-    --gap: 0.75rem;
-}
-  
-.gap-4 {
-    --gap: 1rem;
-}
+/* @media (min-width: 360px) and (max-width: 500px) { */
+     @media screen and (max-width: 720px){
+        .sidebar {
+            top: 0;
+            background-image: url("images/church5.jpg");
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 25vh;
+            background-attachment: fixed;
+            position: fixed;
+            background-size: 100%;
+            z-index: 1000;
+            transition: transform 200ms ease;
+        }
+        
+        .item-center {
+            align-items: center;
+            text-align: center;
+            height: 10vh;
+        }
+        .item-center h1 {
+            font-size: 4vw;
+        }
+        .item-center h2{
+            font-size: 4vw;
+        }
+        
+        .header {
+            width: 100%;
+            height: 12vh;
+        }
+        
+        .header-left {
+            float: left;
+            text-align: left;
+            width: 15%;
+            height: 12vh;
+        }
+        
+        .header-right {
+            float: right;
+            text-align: right;
+            width: 80%;
+            height: 12vh;
+            padding-right: 2%;
+        }
+        
+        .header-left .logo {
+            padding-left: 3%;
+            padding-top: 1.5vh;
+            height: 12vh;
+            width: 100%;
+        }
 
-.sidebar-links > ul{
-    gap: 1rem;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-.sidebar-links li{
-    padding-bottom: 1rem;
-    border-bottom: 0.5px solid rgba(150, 150, 150, 0.4);
-}
-.sidebar-links a{
-    display: block;
-    transition: 200ms ease-in-out;
-}
-.sidebar-links a:hover{
-    color: #000066;
-}
-.justify-center {
-    justify-content: center;
-}
-  
-.justify-between {
-    justify-content: space-between;
-}
-  
-.overflow-hidden {
-    overflow: hidden;
-}
-.overflow-auto{
-    overflow: auto;
-} 
-
-.div-padding{
-    padding-top: 100px;
-}
- .flex {
-    display: flex;
-    gap: var(--gap, 0.5rem);
-}
-.card-list{
-    flex-direction: row;
-    max-width: max(85%, 55rem);
-}
-.card-text{
-    min-width: min(100%, 10rem);
-}
-
-@media (min-width: 768px) and (max-width: 1150px){
-.sidebar{
+        .navigation{
+            margin-top: 6vh;
+        }
+        .navigation li {
+            display: inline-block;
+            margin-left: 2%;
+        }
+        .navigation li:hover {
+            border-bottom: 2px solid #fff;
+        }
+        
+        .nav-active {
+            border-bottom: 2px solid #fff;
+        }
+        
+        a {
+            text-decoration: none;
+        }
     
- }
-}
+        .main-a {
+            color: #d1d1e0;
+        }
+        
+        .main-a:visited {
+            color: #d1d1e0;
+        }
+        
+        .main-a:hover {
+            color: #9966ff;
+        }
+      
+        /* .welcome{
+            padding-top: 23vh;
+        } */
+        .scroll-img {
+            margin-top: 25vh;
+            height: 53vh;
+            width: 100%;
+        }
+        
+        #image {
+            width: 100%;
+        }
+        .fedup{
+            height: 55vh;
+        }
+        .section-text {
+            margin-top: 5vh;
+            text-align: center;
+            font-weight: 700;
+        }
+        
+        .footer {
+            margin-top: 25vh;
+            width: 100%;
+            height: 27vh;
+            background-color: #334d4d;
+            display: flex;
+            padding: 20px 0px 20px 0px;
+            color: #fff;
+        }
+        
+        .footer-left {
+            float: left;
+            height: 27vh;
+            width: 50%;
+        }
+        
+        .footer-left li {
+            display: block;
+        }
+        .footer li a{
+            color: #1aa3ff;
+        }
+        .footer-right {
+            float: right;
+            height: 27vh;
+            width: 50%;
+        }
+        
+        #address {
+            text-align: center;
+            font-weight: bold;
+        }
+        .footer-img{
+            height: 4vh;
+            width: 7%;
+        }
+        .copyright {
+            padding-top: 7vh;
+            width: 100%;
+            text-align: center;
+            background-color: #334d4d;
+            color: #fff;
+        }
+        
+        .back {
+            background-color: #334d4d;
+            padding-top: 1vh;
+        }
+        
+        .up-btn {
+            border-radius: 50%;
+            border: 1px solid black;
+            background-color: #99ccff;
+            width: 7%;
+            height: 6vh;
+            position: absolute;
+            cursor: pointer;
+            transition: 200ms ease-in-out;
+        }
+        
+        .up-btn:hover {
+            color: #000;
+            background-color: #ffcccc;
+        }
+        
+        .up-btn>svg {
+            position: absolute;
+            bottom: 2vh;
+            transform: translate(-50%);
+            color: #000;
+        }
+        
+        .up-button::before {
+            background-color: #334d4d;
+        
+        }
+        
+        .mapouter {
+            position: relative;
+            text-align: right;
+            width: 90%;
+            height: 30vh;
+        }
+        
+        .gmap_canvas {
+            overflow: hidden;
+            background: none !important;
+            width: 90%;
+            height: 30vh;
+        }
+        
+        .gmap_iframe {
+            height: 30vh !important;
+        }
+    }
+     
 
-@media (min-width: 360px) and (max-width: 768px){
-.sidebar{
-    height: 30%;
-}
-.header:after{
-    min-width: 100%;
-    display: flex;
-}
-.item-center h1,h2{
-    font-size: 24px;
-}
-.header-right{
-    text-align: right;
-    float: right;
-    width: 80%;
-    padding-top: 20px;
-}
-.header-left{ 
-    float: left;
-    width: 20%;
-    padding-top: 20px;
-}
-.mapouter{
-    position:relative;
-    text-align:center;
-    width: 95%;
-    height:300px;
-}
-.gmap_canvas {
-    overflow:hidden;
-    background:none!important;
-    width: 95%;
-    height:300px;
-}
-.gmap_iframe {
-    height:300px!important;
-}
 
-.footer{
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
- }
-}
+/* @media (min-width: 360px) and (max-width: 500px) { */
+    @media (min-width: 721px) and (max-width: 1080px){
+            .sidebar {
+                top: 0;
+                background-image: url("images/church5.jpg");
+                background-repeat: no-repeat;
+                width: 100%;
+                height: 25vh;
+                background-attachment: fixed;
+                position: fixed;
+                background-size: 100%;
+                z-index: 1000;
+                transition: transform 200ms ease;
+            }
+            
+            .item-center {
+                align-items: center;
+                text-align: center;
+                height: 10vh;
+            }
+            .item-center h1 {
+                font-size: 3vw;
+            }
+            .item-center h2{
+                font-size: 3vw;
+            }
+            
+            .header {
+                width: 100%;
+                height: 12vh;
+            }
+            
+            .header-left {
+                float: left;
+                text-align: left;
+                width: 15%;
+                height: 12vh;
+            }
+            
+            .header-right {
+                float: right;
+                text-align: right;
+                width: 80%;
+                height: 12vh;
+                padding-right: 2%;
+            }
+            
+            .header-left .logo {
+                padding-left: 3%;
+                padding-top: 1.5vh;
+                height: 11vh;
+                width: 100%;
+            }
+    
+            .navigation{
+                margin-top: 6vh;
+            }
+            .navigation li {
+                display: inline-block;
+                margin-left: 2%;
+            }
+            .navigation li:hover {
+                border-bottom: 2px solid #fff;
+            }
+            
+            .nav-active {
+                border-bottom: 2px solid #fff;
+            }
+            
+            a {
+                text-decoration: none;
+            }
+        
+            .main-a {
+                color: #d1d1e0;
+            }
+            
+            .main-a:visited {
+                color: #d1d1e0;
+            }
+            
+            .main-a:hover {
+                color: #9966ff;
+            }
+          
+            /* .welcome{
+                padding-top: 23vh;
+            } */
+            .scroll-img {
+                margin-top: 25vh;
+                height: 53vh;
+                width: 100%;
+            }
+            
+            #image {
+                width: 100%;
+            }
+            .fedup{
+                height: 55vh;
+            }
+            .section-text {
+                margin-top: 5vh;
+                text-align: center;
+                font-weight: 700;
+            }
+            
+            .footer {
+                margin-top: 25vh;
+                width: 100%;
+                height: 27vh;
+                background-color: #334d4d;
+                display: flex;
+                padding: 20px 0px 20px 0px;
+                color: #fff;
+            }
+            
+            .footer-left {
+                float: left;
+                height: 27vh;
+                width: 50%;
+            }
+            
+            .footer-left li {
+                display: block;
+            }
+            .footer li a{
+                color: #1aa3ff;
+            }
+            .footer-right {
+                float: right;
+                height: 27vh;
+                width: 50%;
+            }
+            
+            #address {
+                text-align: center;
+                font-weight: bold;
+            }
+            .footer-img{
+                height: 4vh;
+                width: 7%;
+            }
+            .copyright {
+                padding-top: 4vh;
+                width: 100%;
+                text-align: center;
+                background-color: #334d4d;
+                color: #fff;
+            }
+            
+            .back {
+                background-color: #334d4d;
+                padding-top: 1vh;
+            }
+            
+            .up-btn {
+                border-radius: 50%;
+                border: 1px solid black;
+                background-color: #99ccff;
+                width: 7%;
+                height: 6vh;
+                position: absolute;
+                cursor: pointer;
+                transition: 200ms ease-in-out;
+            }
+            
+            .up-btn:hover {
+                color: #000;
+                background-color: #ffcccc;
+            }
+            
+            .up-btn>svg {
+                position: absolute;
+                bottom: 2vh;
+                transform: translate(-50%);
+                color: #000;
+            }
+            
+            .up-button::before {
+                background-color: #334d4d;
+            
+            }
+            
+            .mapouter {
+                position: relative;
+                text-align: right;
+                width: 90%;
+                height: 30vh;
+            }
+            
+            .gmap_canvas {
+                overflow: hidden;
+                background: none !important;
+                width: 90%;
+                height: 30vh;
+            }
+            
+            .gmap_iframe {
+                height: 30vh !important;
+            }
+    }
 
-.sidebar{
-    display: flex;
-    flex-wrap: wrap;
-}
-@media (min-width: 1150px) {
+
+@media (min-width: 1081px){
     .sidebar {
-      display: none;
+        top: 0;
+        background-image: url("images/church5.jpg");
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 25vh;
+        background-attachment: fixed;
+        position: fixed;
+        background-size: 100%;
+        z-index: 1000;
+        transition: transform 200ms ease;
     }
-    h1 {
-      margin-top: 1rem;
-      font-size: 4rem;
-      line-height: 1.25;
+    
+    .item-center {
+        align-items: center;
+        text-align: center;
+        height: 10vh;
     }
-    h1 > span {
-      font-size: 2.5rem;
+    .item-center h1 {
+        font-size: 2vw;
     }
-    header {
-      display: none;
+    .item-center h2{
+        font-size: 2vw;
     }
+    
     .header {
-      min-width: 100%;
-      display: flex;
-      position: fixed;
-      justify-content: space-between;
-      padding-inline: 3rem;
+        width: 100%;
+        height: 12vh;
     }
+    
     .header-left {
-      min-width: 50%;
-      padding-left: min(3.5rem, 2.5vw);
+        float: left;
+        text-align: left;
+        width: 15%;
+        height: 12vh;
     }
+    
     .header-right {
-      min-width: 50%;
-      padding-left: 1rem;
+        float: right;
+        text-align: right;
+        width: 80%;
+        height: 12vh;
+        padding-right: 1%;
     }
-    .intro-content {
-      padding-top: 10rem;
-      padding-left: min(8rem, 6vw);
-      padding-right: 1rem;
-    }
+    
     .header-left .logo {
-      margin: 1rem;
+        padding-left: 3%;
+        height: 12vh;
+        width: 90%;
     }
-    .primary-nav {
-      padding-inline: 1rem;
+
+    .navigation{
+        margin-top: 6vh;
     }
-    .primary-nav > * {
-      padding: 0.5rem;
+    .navigation li {
+        display: inline-block;
+        margin-left: 2%;
     }
-    .primary-nav li:hover {
-      border-bottom: 2px solid #fff;
+    .navigation li:hover {
+        border-bottom: 2px solid #fff;
     }
+    
     .nav-active {
-      border-bottom: 2px solid #fff;
+        border-bottom: 2px solid #fff;
     }
-    .enter-exam-head {
-      width: min(30rem, 25vw);
-      display: flex;
-      justify-content: center;
+    
+    a {
+        text-decoration: none;
     }
-    .enter-exam-head-btn {
-      width: min(10rem, 8vw);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-weight: 600;
+
+    .main-a {
+        color: #d1d1e0;
     }
-    .enter-exam-intro {
-      display: none;
+    
+    .main-a:visited {
+        color: #d1d1e0;
     }
-    .sign-in {
-      margin-top: 1.5rem;
+    
+    .main-a:hover {
+        color: #9966ff;
     }
-    .sign-in button {
-      font-size: 14px;
-      font-weight: 500;
-      padding: 0.5rem min(1.25rem, 1vw);
-      margin-bottom: 0.5rem;
-      border-radius: 2rem;
-      background-color: transparent;
-      color: #fff;
-      border: 1px solid #fff;
-      transition: 250ms ease-in-out;
+  
+    .scroll-img {
+        margin-top: 25vh;
+        height: 53vh;
+        width: 100%;
     }
-    .sign-in button:hover {
-      color: var(--secondary-color);
+    
+    #image {
+        width: 100%;
     }
-    .sign-in p {
-      font-weight: 500;
+    .fedup{
+        height: 55vh;
     }
-  }
-   */
+    .section-text {
+        margin-top: 15vh;
+        text-align: center;
+        font-weight: 700;
+    }
+    
+    .footer {
+        margin-top: 30vh;
+        width: 100%;
+        height: 35vh;
+        background-color: #334d4d;
+        display: flex;
+        padding: 20px 0px 20px 0px;
+        color: #fff;
+    }
+    
+    .footer-left {
+        float: left;
+        height: 35vh;
+        width: 50%;
+    }
+    
+    .footer-left li {
+        display: block;
+    }
+    .footer li a{
+        color: #1aa3ff;
+    }
+    .footer-right {
+        float: right;
+        height: 35vh;
+        width: 50%;
+    }
+    
+    #address {
+        text-align: center;
+        font-weight: bold;
+    }
+    .footer-img{
+        height: 4vh;
+        width: 6%;
+    }
+    .copyright {
+        padding-top: 4vh;
+        width: 100%;
+        text-align: center;
+        background-color: #334d4d;
+        color: #fff;
+    }
+    
+    .back {
+        background-color: #334d4d;
+        padding-top: 1vh;
+    }
+    
+    .up-btn {
+        border-radius: 50%;
+        border: 1px solid black;
+        background-color: #99ccff;
+        width: 5%;
+        height: 6vh;
+        position: absolute;
+        cursor: pointer;
+        transition: 200ms ease-in-out;
+    }
+    
+    .up-btn:hover {
+        color: #000;
+        background-color: #ffcccc;
+    }
+    
+    .up-btn>svg {
+        position: absolute;
+        bottom: 1vh;
+        transform: translate(-50%);
+        color: #000;
+    }
+    
+    .up-button::before {
+        background-color: #334d4d;
+    
+    }
+    
+    .mapouter {
+        position: relative;
+        text-align: right;
+        width: 90%;
+        height: 35vh;
+    }
+    
+    .gmap_canvas {
+        overflow: hidden;
+        background: none !important;
+        width: 90%;
+        height: 35vh;
+    }
+    
+    .gmap_iframe {
+        height: 35vh !important;
+    }
+}

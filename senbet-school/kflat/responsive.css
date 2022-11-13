@@ -1,0 +1,238 @@
+
+
+/* @media (min-width: 360px) and (max-width: 500px) { */
+    @media screen and (max-width: 414px){
+        .sidebar {
+            top: 0;
+            background-image: url("images/church2.jpg");
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 30vh;
+            background-attachment: fixed;
+            position: fixed;
+            background-size: 100%;
+            z-index: 1000;
+            transition: transform 200ms ease;
+        }
+        .side-list {
+             height: 100vh;
+        }
+        li {
+            
+        }
+        .item-center {
+            align-items: center;
+            text-align: center;
+            height: 7vh;
+        }
+        .item-center h1 {
+            font-size: 4vw;
+        }
+        .item-center h2{
+            font-size: 4vw;
+        }
+        #ul {
+            font-size: 3vw;
+        }
+        
+        .header {
+            top: 30%;
+            width: 100%;
+            height: 6vh;
+            margin: 3%;
+        }
+        
+        .header-left {
+            float: left;
+            text-align: left;
+            width: 20%;
+            height: 8vh;
+        }
+        
+        .header-right {
+            float: right;
+            text-align: right;
+            width: 80%;
+            height: 8vh;
+        }
+        
+        .header-left .logo {
+            padding-left: 5%;
+            height: 6vh;
+            width: 50%;
+        }
+        
+        .nav {
+            margin-top: 300%;
+        }
+        .right-body {
+            margin-top: 50%;
+        }
+        
+        .navigation li {
+            display: inline-block;
+        }
+        #nav{
+            margin-right: 6%;
+        }
+        .navigation li:hover {
+            border-bottom: 2px solid #fff;
+        }
+        
+        .nav-active {
+            border-bottom: 2px solid #fff;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        .main-a {
+            color: #4d88ff;
+        }
+        
+        .main-a:visited {
+            color: #1aa3ff;
+        }
+        
+        .main-a:hover {
+            color: #b3b3ff;
+        }
+        #nav-text {
+            padding-top: 1%;
+            margin: 0;
+        }
+        .mid-nav {
+            top: 17%;
+        }
+        /* .mid#welcome {
+            padding-top: 90%;
+        } */
+        /* .mid {
+            margin-top: 40%;
+            padding-top: 90%;
+            width: 100%;
+            height: 45%;
+            position: relative;
+        } */
+        .welcome{
+            margin-top: 47%;
+            margin-bottom: 0%;
+        }
+        .scroll-img {
+            height: 30vh;
+            width: 100%;
+        }
+        
+        #image {
+            height: 30vh;
+            width: 100%;
+        }
+        
+        .section-text {
+            margin-top: 10%;
+            height: 40vh;
+            text-align: center;
+            font-weight: 700;
+            margin-bottom: 10%;
+        }
+        
+        .footer {
+            width: 100%;
+            height: 30vh;
+            background-color: #334d4d;
+            display: flex;
+            padding: 20px 0px 20px 0px;
+            /* margin-top: 70%; */
+            color: #fff;
+        }
+        
+        .footer-left {
+            float: left;
+            height: 75vh;
+            width: 50%;
+            bottom: 25%;
+            top: 70%;
+        }
+        
+        .footer-left li {
+            display: block;
+        }
+        .footer li a{
+            color: #1aa3ff;
+        }
+        .footer-right {
+            float: right;
+            height: 75vh;
+            width: 50%;
+            bottom: 25%;
+            top: 70%;
+        }
+        
+        #address {
+            text-align: center;
+            font-weight: bold;
+        }
+        .footer-img{
+            height: 4vh;
+            width: 4%;
+        }
+        .copyright {
+            width: 100%;
+            text-align: center;
+            background-color: #334d4d;
+            color: #fff;
+        }
+        
+        .back {
+            background-color: #334d4d;
+            height: 5vh;
+        }
+        
+        .up-btn {
+            border-radius: 50%;
+            border: 1px solid black;
+            background-color: #99ccff;
+            width: 3%;
+            height: 6vh;
+            position: absolute;
+            cursor: pointer;
+            transition: 200ms ease-in-out;
+        }
+        
+        .up-btn:hover {
+            color: #000;
+            background-color: #ffcccc;
+        }
+        
+        .up-btn>svg {
+            position: absolute;
+            bottom: 10%;
+            transform: translate(-50%);
+            color: #000;
+        }
+        
+        .up-button::before {
+            background-color: #334d4d;
+        
+        }
+        
+        .mapouter {
+            position: relative;
+            text-align: right;
+            width: 90%;
+            height: 300vh;
+        }
+        
+        .gmap_canvas {
+            overflow: hidden;
+            background: none !important;
+            width: 90%;
+            height: 300vh;
+        }
+        
+        .gmap_iframe {
+            height: 300vh !important;
+        }
+    }
+    
