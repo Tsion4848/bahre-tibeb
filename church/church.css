@@ -1,14 +1,15 @@
 .c-middle{
     width: 100%;
-    height: 50vh;
-    margin-top: 12.5%;
+    margin-top: 21vh;
 }
 .c-scroll-img {
-    height: 53vh;
     width: 100%;
 }
 #c-image {
     width: 100%;
+}
+.fedup{
+    padding-top: 7.5vh;
 }
 .mid-text{
     width: 100%;
@@ -23,12 +24,16 @@
     height: 75vh;
     margin-left: 2%;
 }
+.mid-left h3{
+    padding-top: 20vh;
+    padding-left: 2%;
+}
 .mid-right{
     margin-top: 7vh;
     width: 35%;
     float: right;
     text-align: center;
-    height: 75vh;
+    height: 55vh;
     margin-right: 2%;
 }
 #admin{
@@ -38,4 +43,109 @@
 p{
     font-weight: 100;
 } 
-  
+.c-mid-nav{
+    width: 100%;
+    background-color: #75a3a3;
+    position: fixed;
+    transition: transform 200ms ease;
+    text-align: left;
+    height: 7vh;
+    padding: 0%;
+    z-index: 1000;
+}
+.c-navigation{
+    padding-left: 1%;
+    padding-bottom: 2vh;
+}
+.c-navigation li{
+    display: inline-block;
+    margin-left: 2%;
+}
+.c-navigation li:hover{
+    border-bottom: 2px solid #fff;
+} 
+.c-card-li{
+    text-align: left;
+    font-weight: 500;
+}
+.c-card-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5vh;
+    align-items: center;
+    margin-top: 20vh;
+}
+.c-card-list{
+    display: flex;
+    flex-direction: row;
+    padding: 3vh 1%;
+    font-size: 11px;
+    gap: min(3%, 4%);
+}
+.c-card{
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid lightgray;
+    padding: min(2%, 3%);
+    border-radius: 5%;
+    transition: 300ms ease-in-out;
+    box-shadow: 0px 0px 6px -2px;
+    width: 33%;
+}
+.c-card:hover{
+    background-color: #333300;
+    color: #fff;
+}
+.c-card:hover .c-card-text{
+    color: #fff;
+}
+#eset:hover .c-card-img{
+    filter: brightness(100);
+}
+.c-card-img{
+    width: 40%;
+    transition: 10ms ease-in-out;
+    height: 30vh;
+}
+.c-card-title{
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+.c-card-text{
+    font-size: 14px;
+    text-align: left;
+    font-weight: 100;
+    color: #000;
+    transition: 300ms ease-in-out;
+}
+.t-middle h2{
+    padding-top: 10vh;
+    text-align: center;
+}
+.t-middle p{
+    padding-top: 7vh;
+}
+.t-middle{
+    margin-top: 21vh;
+    padding: 4%;
+}
+/* #c-eset{
+    font-size: 130%;
+} 
+#green{
+    background-color: #e6ffe6;
+}
+#yellow{
+    background-color: #ffffb3;
+}
+#red{
+    background-color: #ff3300;
+}
+#green:hover{
+    background-color: aqua;
+} */

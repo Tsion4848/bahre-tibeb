@@ -9,7 +9,7 @@ h4{
 }
 
 @media screen and (max-width: 720px){
-    .ag-mid-nav{
+    /* .ag-mid-nav{
         width: 100%;
         background-color: #75a3a3;
         position: fixed;
@@ -31,20 +31,24 @@ h4{
     .ag-navigation li:hover{
         border-bottom: 2px solid #fff;
     }
-    .mid-main{
-        padding-top: 10vh;
-        width: 90%;
-        height: 90%;
-    }
+    
     .item-center h1{
         font-size: 3.5vw;
     }
     .item-center h2{
         font-size: 3.5vw;
-    }    
+    }     */
+    .p-mid{
+        padding-left: 2%;
+        font-size: 4vw;
+    }
+    #medhanealem{
+        padding-top: 10vh;
+        width: 95%;
+    }
 }
 @media (min-width: 721px) and (max-width: 1080px){
-    .ag-mid-nav{
+    /* .ag-mid-nav{
         width: 100%;
         background-color: #75a3a3;
         position: fixed;
@@ -64,38 +68,24 @@ h4{
     }
     .ag-navigation li:hover{
         border-bottom: 2px solid #fff;
+    } */
+    .p-mid{
+        padding-left: 2%;
+        font-size: 3.5vw;
     }
-    .mid-main{
-        padding-top: 7%;
-        width: 90%;
-        height: 90%;
+    #medhanealem{
+        padding-top: 10vh;
+        width: 95%;
     }
 }
 @media (min-width: 1081px){
-    .ag-mid-nav{
-        width: 100%;
-        background-color: #75a3a3;
-        position: fixed;
-        transition: transform 200ms ease;
-        text-align: left;
-        height: 7vh;
-        padding: 0%;
-        z-index: 1000;
+
+    .p-mid{
+        padding-left: 2%;
+        font-size: 1.5vw;
     }
-    .ag-navigation{
-        padding-left: 1%;
-        padding-bottom: 2vh;
-    }
-    .ag-navigation li{
-        display: inline-block;
-        margin-left: 2%;
-    }
-    .ag-navigation li:hover{
-        border-bottom: 2px solid #fff;
-    }
-    .mid-main{
-        padding-top: 5%;
-        width: 90%;
-        height: 90%;
+    #medhanealem{
+        padding-top: 10vh;
+        width: 95%;
     }
 }

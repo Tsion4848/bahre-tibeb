@@ -1,21 +1,3 @@
-/* .header {
-    width: 100%;
-    height: 38%;
-}
-
-.header-left {
-    float: left;
-    text-align: left;
-    width: 20%;
-    height: 100%;
-}
-
-.header-right {
-    float: right;
-    text-align: right;
-    width: 80%;
-    height: 80%;
-} */
 body {
     margin: 0%;
 }
@@ -30,306 +12,6 @@ html {
 a{
     font-weight: bold;
 }
-/*
-.sidebar-senbet {
-    top: 0;
-    background-image: url("../images/church5.jpg");
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 21vh;
-    background-attachment: fixed;
-    position: fixed;
-    background-size: 100%;
-    z-index: 1000;
-    transition: transform 200ms ease;
-}
-
-.item-center{
-    align-items: center;
-    text-align: center;
-    height: 9vh;
-}
-.item-center h1{
-    font-size: 1.8vw;
-}
-.item-center h2{
-    font-size: 1.8vw;
-}
-.header {
-    width: 100%;
-    height: 10vh;
-}
-
-.header-left {
-    float: left;
-    text-align: left;
-    width: 20%;
-    height: 10vh;
-}
-
-.header-right {
-    float: right;
-    text-align: right;
-    width: 80%;
-    height: 10vh;
-}
-
-.header-left .logo {
-    padding-left: 5%;
-    height: 9vh;
-    width: 60%;
-}
-.navigation {
-    padding-top: 4vh;
-    padding-right: 0%;
-}
-
-.navigation li {
-    display: inline-block;
-    margin: 0 1%;
-}
-
-.navigation li:hover {
-    border-bottom: 2px solid #fff;
-}
-
-.nav-active {
-    border-bottom: 2px solid #fff;
-}
-
-a {
-    text-decoration: none;
-}
-
-.main-a {
-    color: #d1d1e0;
-}
-
-.main-a:visited {
-    color: #d1d1e0;
-}
-
-.main-a:hover {
-    color: #9966ff;
-}
-
-.mid{
-    margin-top: 21vh;
-}
-.mid-sec{
-    padding: 0%;
-}
-.mid-nav{
-    width: 100%;
-    background-color: #75a3a3;
-    position: relative;
-    transition: transform 200ms ease;
-    text-align: left;
-    height: 7vh;
-    padding: 0%;
-    z-index: 1000;
-}
-.mid-nav.sticky{
-    position: fixed;
-    top: 0vh;
-    padding-bottom: 2vh;
-    height: 7vh;
-}
-.navigation{
-    padding-top: 1vh;
-    padding-left: 1%;
-}
-.navigation li{
-    display: inline-block;
-}
-.navigation li:hover{
-    border-bottom: 2px solid #fff;
-}
-.nav-active{
-    border-bottom: 2px solid #fff;
-}
-a{
-    text-decoration: none;
-}
-#nav-text a{
-    color: #004d4d;
-}
-#nav-text a:hover{
-    color: #b3b3ff;
-}
-.welcome{
-    padding-top: 3vh;
-    font-weight: 600;
-    font-family:Arial, Helvetica, sans-serif;
-    text-align: center;
-    padding-bottom: 4vh;
-}
-.mid-main{
-    padding-top: 0vh;
-    padding-left: 3%;
-    padding-right: 3%;
-}
-.mid-main h3{
-    text-align: center;
-}
-.top-nav a{
-    color: #cc0044;
-}
-.card-li{
-    text-align: left;
-    font-weight: 500;
-}
-.card-container{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 5vh;
-    align-items: center;
-}
-.card-list{
-    display: flex;
-    flex-direction: row;
-    padding: 3vh 1%;
-    font-size: 11px;
-    gap: min(3%, 4%);
-}
-.card{
-    color: #000;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid lightgray;
-    padding: min(2%, 3%);
-    border-radius: 5%;
-    transition: 300ms ease-in-out;
-    box-shadow: 0px 0px 6px -2px;
-    width: 33%;
-}
-.card:hover{
-    background-color: #00264d;
-    color: #fff;
-}
-.card:hover .card-text{
-    color: #fff;
-}
-.card:hover .card-img{
-    filter: brightness(100);
-}
-.card-img{
-    width: 40%;
-    transition: 10ms ease-in-out;
-    height: 30vh;
-}
-.card-title{
-    text-transform: uppercase;
-    font-size: 16px;
-    letter-spacing: 0.5px;
-    text-align: center;
-}
-.card-text{
-    font-size: 14px;
-    text-align: left;
-    font-weight: 100;
-    color: #000;
-    transition: 300ms ease-in-out;
-}
-#eset{
-    font-size: 130%;
-}
-
-.footer {
-    width: 100%;
-    height: 45vh;
-    background-color: #334d4d;
-    display: flex;
-    padding: 20px 0px 20px 0px;
-    color: #fff;
-}
-
-.footer-left {
-    float: left;
-    height: 45vh;
-    width: 50%;
-}
-
-.footer-left li {
-    display: block;
-}
-.footer li a{
-    color: #1aa3ff;
-}
-.footer-right {
-    float: right;
-    height: 45vh;
-    width: 50%;
-}
-
-#address {
-    text-align: center;
-    font-weight: bold;
-}
-.footer-img{
-    height: 4vh;
-    width: 4%;
-}
-.copyright {
-    width: 100%;
-    text-align: center;
-    background-color: #334d4d;
-    color: #fff;
-}
-
-.back {
-    background-color: #334d4d;
-}
-
-.up-btn {
-    border-radius: 50%;
-    border: 1px solid black;
-    background-color: #99ccff;
-    width: 4%;
-    height: 6vh;
-    position: absolute;
-    cursor: pointer;
-    transition: 200ms ease-in-out;
-}
-
-.up-btn:hover {
-    color: #000;
-    background-color: #ffcccc;
-}
-
-.up-btn>svg {
-    position: absolute;
-    bottom: 2vh;
-    left: 50%;
-    transform: translate(-50%);
-    color: #000;
-}
-
-.up-button::before {
-    background-color: #334d4d;
-
-}
-
-.mapouter {
-    position: relative;
-    text-align: right;
-    width: 90%;
-    height: 45vh;
-}
-
-.gmap_canvas {
-    overflow: hidden;
-    background: none !important;
-    width: 90%;
-    height: 45vh;
-}
-
-.gmap_iframe {
-    height: 45vh !important;
-}
-*/
 
 @media screen and (max-width: 720px){
     .sidebar-senbet {
@@ -351,10 +33,11 @@ a{
         height: 9vh;
     }
     .item-center h1{
-        font-size: 1vw;
+        padding-top: 1vh;
+        font-size: 4vw;
     }
     .item-center h2{
-        font-size: 1vw;
+        font-size: 4vw;
     }
     .header {
         width: 100%;
@@ -378,18 +61,29 @@ a{
     
     .header-left .logo {
         padding-left: 5%;
-        height: 3vh;
-        width: 60%;
+        height: 12vh;
+        width: 100%;
         margin-bottom: 1vh;
     }
     .navigation {
-        padding-top: 4vh;
-        padding-right: 0%;
+        padding-right: 2%;
+        padding-left: 1%;
     }
-    
-    .navigation li {
+    .welcome{
+        padding-top: 7vh;
+    }
+    .header-right .navigation li{
         display: inline-block;
         margin: 0 1%;
+        font-size: 3vw;
+    }
+    .navigation li{
+        font-size: 3vw;
+    }    
+    .mid-nav .navigation li {
+        display: inline-block;
+        margin: 0 1%;
+        font-size: 3.2vw;
     }
     
     .navigation li:hover {
@@ -425,7 +119,7 @@ a{
     .mid-nav{
         width: 100%;
         background-color: #75a3a3;
-        position: relative;
+        position: fixed;
         transition: transform 200ms ease;
         text-align: left;
         height: 7vh;
@@ -437,13 +131,6 @@ a{
         top: 0vh;
         padding-bottom: 2vh;
         height: 7vh;
-    }
-    .navigation{
-        padding-top: 1vh;
-        padding-left: 1%;
-    }
-    .navigation li{
-        display: inline-block;
     }
     .navigation li:hover{
         border-bottom: 2px solid #fff;
@@ -460,14 +147,16 @@ a{
     #nav-text a:hover{
         color: #b3b3ff;
     }
-    #wel{
-        padding-top: 5vh;
-    }
     .welcome{
         font-weight: 600;
         font-family:Arial, Helvetica, sans-serif;
         text-align: center;
-        padding-bottom: 4vh;
+        padding-bottom: 3vh;
+        padding-top: 10vh;
+        font-size: 3.5vw;
+    }
+    .mid-text{
+        font-size: 4vw;
     }
     .mid-main{
         padding-top: 0vh;
@@ -494,7 +183,6 @@ a{
         display: flex;
         flex-direction: row;
         padding: 3vh 1%;
-        font-size: 11px;
         gap: min(3%, 4%);
     }
     .card{
@@ -527,21 +215,17 @@ a{
     }
     .card-title{
         text-transform: uppercase;
-        font-size: 16px;
+        font-size: 3vw;
         letter-spacing: 0.5px;
         text-align: center;
     }
     .card-text{
-        font-size: 14px;
+        font-size: 3vw;
         text-align: left;
         font-weight: 100;
         color: #000;
         transition: 300ms ease-in-out;
     }
-    #eset{
-        font-size: 130%;
-    }
-    
     .footer {
         width: 100%;
         height: 27vh;
@@ -657,10 +341,10 @@ a{
         height: 8vh;
     }
     .item-center h1{
-        font-size: 3vw;
+        font-size: 3.5vw;
     }
     .item-center h2{
-        font-size: 3vw;
+        font-size: 3.5vw;
     }
     .header {
         width: 100%;
@@ -683,20 +367,26 @@ a{
     }
     
     .header-left .logo {
-        padding-left: 5%;
-        height: 9vh;
-        width: 60%;
+        padding-left: 2%;
+        height: 12vh;
+        width: 90%;
     }
     .navigation {
-        padding-top: 4vh;
-        padding-right: 0%;
+        padding-right: 2%;
+        padding-left: 1%;
     }
-    
-    .navigation li {
+    .header-right .navigation li{
         display: inline-block;
         margin: 0 1%;
+        font-size: 3vw;
+        padding-top: 2vh;
     }
-    
+    .mid-nav .navigation li {
+        display: inline-block;
+        margin: 0 1%;
+        font-size: 2.5vw;
+    }
+
     .navigation li:hover {
         border-bottom: 2px solid #fff;
     }
@@ -730,7 +420,7 @@ a{
     .mid-nav{
         width: 100%;
         background-color: #75a3a3;
-        position: relative;
+        position: fixed;
         transition: transform 200ms ease;
         text-align: left;
         height: 7vh;
@@ -742,13 +432,6 @@ a{
         top: 0vh;
         padding-bottom: 2vh;
         height: 7vh;
-    }
-    .navigation{
-        padding-top: 1vh;
-        padding-left: 1%;
-    }
-    .navigation li{
-        display: inline-block;
     }
     .navigation li:hover{
         border-bottom: 2px solid #fff;
@@ -765,22 +448,23 @@ a{
     #nav-text a:hover{
         color: #b3b3ff;
     }
-    #wel{
-        padding-top: 5vh;
-    }
     .welcome{
         font-weight: 600;
         font-family:Arial, Helvetica, sans-serif;
         text-align: center;
         padding-bottom: 4vh;
+        padding-top: 7vh;
+        font-size: 3vw;
     }
     .mid-main{
-        padding-top: 0vh;
         padding-left: 3%;
         padding-right: 3%;
     }
     .mid-main h3{
         text-align: center;
+    }
+    .mid-text{
+        font-size: 2.7vw;
     }
     .top-nav a{
         color: #cc0044;
@@ -799,7 +483,6 @@ a{
         display: flex;
         flex-direction: row;
         padding: 3vh 1%;
-        font-size: 11px;
         gap: min(3%, 4%);
     }
     .card{
@@ -832,21 +515,17 @@ a{
     }
     .card-title{
         text-transform: uppercase;
-        font-size: 16px;
+        font-size: 3vw;
         letter-spacing: 0.5px;
         text-align: center;
     }
     .card-text{
-        font-size: 14px;
+        font-size: 2.5vw;
         text-align: left;
         font-weight: 100;
         color: #000;
         transition: 300ms ease-in-out;
-    }
-    #eset{
-        font-size: 130%;
-    }
-    
+    }    
     .footer {
         width: 100%;
         height: 27vh;
@@ -958,7 +637,7 @@ a{
     .item-center{
         align-items: center;
         text-align: center;
-        height: 8vh;
+        height: 6vh;
     }
     .item-center h1{
         font-size: 2vw;
@@ -968,32 +647,28 @@ a{
     }
     .header {
         width: 100%;
-        height: 10vh;
+        height: 14vh;
     }
     
     .header-left {
         float: left;
         text-align: left;
         width: 20%;
-        height: 10vh;
+        height: 12vh;
     }
     
     .header-right {
         float: right;
         text-align: right;
         width: 80%;
-        height: 10vh;
+        height: 12vh;
         padding-top: 2vh;
     }
     
     .header-left .logo {
-        padding-left: 5%;
-        height: 11.5vh;
-        width: 50%;
-    }
-    .navigation {
-        padding-top: 4vh;
-        padding-right: 0%;
+        /* padding-left: 5%; */
+        height: 12.5vh;
+        width: 60%;
     }
     
     .navigation li {
@@ -1012,7 +687,13 @@ a{
     a {
         text-decoration: none;
     }
-    
+    .header-right .navigation{
+        padding-top: 1vh;
+        padding-right: 2%;
+    }
+    .mid-nav .navigation{
+        padding-left: 1%;
+    }
     .main-a {
         color: #d1d1e0;
     }
@@ -1034,11 +715,10 @@ a{
     .mid-nav{
         width: 100%;
         background-color: #75a3a3;
-        position: relative;
+        position: fixed;
         transition: transform 200ms ease;
         text-align: left;
         height: 7vh;
-        padding: 0%;
         z-index: 1000;
     }
     .mid-nav.sticky{
@@ -1047,22 +727,7 @@ a{
         padding-bottom: 2vh;
         height: 7vh;
     }
-    .navigation{
-        padding-top: 1vh;
-        padding-left: 1%;
-    }
-    .navigation li{
-        display: inline-block;
-    }
-    .navigation li:hover{
-        border-bottom: 2px solid #fff;
-    }
-    .nav-active{
-        border-bottom: 2px solid #fff;
-    }
-    a{
-        text-decoration: none;
-    }
+    
     #nav-text a{
         color: #004d4d;
     }
@@ -1077,6 +742,7 @@ a{
         font-family:Arial, Helvetica, sans-serif;
         text-align: center;
         padding-bottom: 4vh;
+        padding-top: 10vh;
     }
     .mid-main{
         padding-top: 0vh;
@@ -1103,7 +769,6 @@ a{
         display: flex;
         flex-direction: row;
         padding: 3vh 1%;
-        font-size: 11px;
         gap: min(3%, 4%);
     }
     .card{
@@ -1126,7 +791,7 @@ a{
     .card:hover .card-text{
         color: #fff;
     }
-    .card:hover .card-img{
+    .card:hover #value{
         filter: brightness(100);
     }
     .card-img{
@@ -1136,20 +801,18 @@ a{
     }
     .card-title{
         text-transform: uppercase;
-        font-size: 16px;
+        font-size: 2vw;
         letter-spacing: 0.5px;
         text-align: center;
     }
     .card-text{
-        font-size: 14px;
+        font-size: 1.5vw;
         text-align: left;
         font-weight: 100;
         color: #000;
         transition: 300ms ease-in-out;
     }
-    #eset{
-        font-size: 130%;
-    }
+   
     .footer {
         width: 100%;
         height: 35vh;

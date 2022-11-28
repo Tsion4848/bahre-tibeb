@@ -1,31 +1,102 @@
-.program{
-    height: 40%;
-    padding-top: 5%;
-    padding-left: 2%;
-    padding-right: 1.5%;
+@media screen and (max-width: 720px){
+    .program{
+        height: 40%;
+        padding-top: 5vh;
+        padding-left: 2%;
+        font-size: 4vw;
+        padding-right: 1.5%;
+    }
+    .program h2{
+        text-align: center;
+    }
+    .program h4{
+        padding-left: 6%;
+    }
+    .sltena{
+        height: 40%;
+        padding-left: 2%;
+        font-size: 4vw;
+        padding-right: 1.5%;
+    }
+    .sltena h2{
+        text-align: center;
+    }
+    .sltena h4{
+        padding-left: 6%;
+    }
+    .mid-body{
+        width: 100%;
+        font-size: 3vw;
+    }
+    .program h2{
+        padding-top: 3.5vh;
+    }
 }
-.program h2{
-    text-align: center;
+@media (min-width: 721px) and (max-width: 1080px){
+    .program{
+        height: 40%;
+        padding-top: 5vh;
+        padding-left: 2%;
+        font-size: 3vw;
+        padding-right: 1.5%;
+    }
+    .program h2{
+        text-align: center;
+    }
+    .program h4{
+        padding-left: 6%;
+    }
+    .sltena{
+        height: 40%;
+        padding-left: 2%;
+        font-size: 3vw;
+        padding-right: 1.5%;
+    }
+    .sltena h2{
+        text-align: center;
+    }
+    .sltena h4{
+        padding-left: 6%;
+    }
+    .program h2{
+        padding-top: 3.5vh;
+    }
 }
-.program h4{
-    padding-left: 6%;
+@media (min-width: 1081px){
+    .program{
+        height: 40%;
+        padding-top: 5vh;
+        padding-left: 2%;
+        font-size: 1.4vw;
+        padding-right: 1.5%;
+    }
+    .program h2{
+        text-align: center;
+    }
+    .program h4{
+        padding-left: 6%;
+    }
+    .sltena{
+        height: 40%;
+        padding-left: 2%;
+        font-size: 1.4vw;
+        padding-right: 1.5%;
+    }
+    .sltena h2{
+        text-align: center;
+    }
+    .sltena h4{
+        padding-left: 6%;
+    }
+    .program h2{
+        padding-top: 3.5vh;
+    }
 }
-.sltena{
-    height: 40%;
-    padding-left: 2%;
-    padding-right: 1.5%;
-}
-.sltena h2{
-    text-align: center;
-}
-.sltena h4{
-    padding-left: 6%;
-}
-.mid-body{
-    height: 100%;
-    width: 100%;
-}
- .p-mid-nav{
+
+
+
+
+ /* .p-mid-nav{
     width: 100%;
     background-color: #75a3a3;
     position: fixed;
@@ -45,4 +116,4 @@
 }
 .p-navigation li:hover{
     border-bottom: 2px solid #fff;
-} 
+}  */

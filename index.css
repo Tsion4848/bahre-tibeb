@@ -233,10 +233,10 @@ a {
             height: 10vh;
         }
         .item-center h1 {
-            font-size: 4vw;
+            font-size: 4.5vw;
         }
         .item-center h2{
-            font-size: 4vw;
+            font-size: 4.5vw;
         }
         
         .header {
@@ -262,16 +262,17 @@ a {
         .header-left .logo {
             padding-left: 3%;
             padding-top: 1.5vh;
-            height: 12vh;
+            height: 13vh;
             width: 100%;
         }
 
         .navigation{
-            margin-top: 6vh;
+            margin-top: 8vh;
         }
         .navigation li {
             display: inline-block;
             margin-left: 2%;
+            font-size: 3vw;
         }
         .navigation li:hover {
             border-bottom: 2px solid #fff;
@@ -302,20 +303,17 @@ a {
         } */
         .scroll-img {
             margin-top: 25vh;
-            height: 53vh;
             width: 100%;
         }
         
         #image {
             width: 100%;
         }
-        .fedup{
-            height: 55vh;
-        }
         .section-text {
             margin-top: 5vh;
             text-align: center;
             font-weight: 700;
+            font-size: 4vw;
         }
         
         .footer {
@@ -351,7 +349,7 @@ a {
             font-weight: bold;
         }
         .footer-img{
-            height: 4vh;
+            height: 3vh;
             width: 7%;
         }
         .copyright {
@@ -437,10 +435,10 @@ a {
                 height: 10vh;
             }
             .item-center h1 {
-                font-size: 3vw;
+                font-size: 3.7vw;
             }
             .item-center h2{
-                font-size: 3vw;
+                font-size: 3.7vw;
             }
             
             .header {
@@ -466,16 +464,17 @@ a {
             .header-left .logo {
                 padding-left: 3%;
                 padding-top: 1.5vh;
-                height: 11vh;
+                height: 13vh;
                 width: 100%;
             }
     
             .navigation{
-                margin-top: 6vh;
+                margin-top: 8vh;
             }
             .navigation li {
                 display: inline-block;
                 margin-left: 2%;
+                font-size: 2.7vw;
             }
             .navigation li:hover {
                 border-bottom: 2px solid #fff;
@@ -500,26 +499,19 @@ a {
             .main-a:hover {
                 color: #9966ff;
             }
-          
-            /* .welcome{
-                padding-top: 23vh;
-            } */
             .scroll-img {
                 margin-top: 25vh;
-                height: 53vh;
                 width: 100%;
             }
             
             #image {
                 width: 100%;
             }
-            .fedup{
-                height: 55vh;
-            }
             .section-text {
-                margin-top: 5vh;
+                margin-top: 10vh;
                 text-align: center;
                 font-weight: 700;
+                font-size: 3vw;
             }
             
             .footer {
@@ -639,10 +631,10 @@ a {
         height: 10vh;
     }
     .item-center h1 {
-        font-size: 2vw;
+        font-size: 2.2vw;
     }
     .item-center h2{
-        font-size: 2vw;
+        font-size: 2.2vw;
     }
     
     .header {
@@ -654,7 +646,7 @@ a {
         float: left;
         text-align: left;
         width: 15%;
-        height: 12vh;
+        height: 14vh;
     }
     
     .header-right {
@@ -666,9 +658,8 @@ a {
     }
     
     .header-left .logo {
-        padding-left: 3%;
-        height: 12vh;
-        width: 90%;
+        height: 12.5vh;
+        width: 60%;
     }
 
     .navigation{
@@ -677,6 +668,7 @@ a {
     .navigation li {
         display: inline-block;
         margin-left: 2%;
+        font-size: 1.5vw;
     }
     .navigation li:hover {
         border-bottom: 2px solid #fff;
@@ -704,20 +696,18 @@ a {
   
     .scroll-img {
         margin-top: 25vh;
-        height: 53vh;
         width: 100%;
     }
     
     #image {
         width: 100%;
     }
-    .fedup{
-        height: 55vh;
-    }
     .section-text {
-        margin-top: 15vh;
+        /* margin-top: 15vh; */
         text-align: center;
         font-weight: 700;
+        margin-top: 15vh;
+        font-size: 1.5vw;
     }
     
     .footer {

@@ -18,8 +18,8 @@ var images = [];
 
 //images[0] = ['./images/ch.jpg'];
 images[0] = ['../images/church/ch2.jpg'];
-images[1] = ['../images/church/ch3.jpg'];
-images[2] = ['../images/church/ch1.jpg'];
+images[1] = ['../images/church/ch20.jpg'];
+images[2] = ['../images/church/ch17.jpg'];
 images[3] = ['../images/church/ch9.jpg'];
 images[4] = ['../images/church/ch.jpg'];
 images[5] = ['../images/church/ch10.jpg'];
